@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+
+let number = 5; // Number of strings
+
   function parse(filename) {
       let fs = require('fs');
       let text = fs.readFileSync(filename).toString().split('\n');
@@ -26,6 +29,15 @@ const fs = require('fs');
         if (map[key]>max) {
             max = map[key]
         }
+        arr2.push(map[key])
     }
-    console.log(map2);
-    console.log(map2[max]);
+
+    arr2.sort(function(a,b){
+        return (b-a);
+    });
+
+    let arr3 = arr2.slice(0,number)
+
+    for (let i = 0; i < arr3.length; i++) {
+        console.log(map2[arr2[i]])        
+    } 
