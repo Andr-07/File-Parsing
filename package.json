@@ -1,0 +1,19 @@
+{
+  "name": "file-parsing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andr-07/File-Parsing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andr-07/File-Parsing/issues"
+  },
+  "homepage": "https://github.com/Andr-07/File-Parsing#readme"
+}
